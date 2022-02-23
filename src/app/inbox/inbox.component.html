@@ -1,0 +1,32 @@
+<!-- <ul *ngFor="let data of recivedData">
+    <li>{{data.from}}</li>
+    <li>{{data.subject}}</li>
+    <li>{{data.message}}</li>
+</ul> -->
+
+<div class="container">
+    <br>
+    <div>
+        <button type="button" class="btn btn-success" data-toggle="modal" data-target="#exampleModal">Compose</button>
+    </div><br>
+    <table class="table table-light  table-bordered table-hover">
+        <thead>
+            <tr class="bg-dark text-white">
+                <th [attr.colspan]="3" class="text-center">Inbox</th>
+            </tr>
+            <tr class="bg-primary">
+                <th>Recived from</th>
+                <th>Subject</th>
+                <th>Message</th>
+            </tr>
+        </thead>
+        <tbody>
+            <tr>
+                <tr *ngFor="let data of recivedData">
+                    <td>{{data.from}}</td>
+                    <td>{{data.subject}}</td>
+                    <td>{{data.message}}</td>
+                </tr>
+        </tbody>
+    </table>
+</div>

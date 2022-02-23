@@ -1,0 +1,58 @@
+/* input {
+    border: none;
+    outline: none;
+    border-bottom: 1px solid;
+    border-radius: 0;
+    width: 350px;
+    padding: 10px;
+}
+
+#loginbox {
+    display: flex;
+    justify-content: center;
+    text-align: center;
+    width: 100%;
+    height: 712px;
+}
+
+#box1 {
+    width: 800px;
+    background-color: black;
+    background-image: url(https://www.keepinspiring.me/wp-content/uploads/2021/05/happiness-is-accepting-what-is-werner-erhard-quote.png);
+    background-repeat: no-repeat;
+    background-size: contain;
+}
+
+#box2 {
+    width: 800px;
+}
+
+#box2 form {
+    margin-top: 150px;
+}
+
+.form-group {
+    display: flex;
+}
+
+#box2 input,
+span {
+    margin-left: 220px;
+}
+
+.form-group i {
+    transform: translateX(-200%);
+    margin-top: 10px;
+}
+
+.btn {
+    height: 60px;
+    width: 100px;
+}
+
+#navbutton {
+    border: none;
+    outline: none;
+    background-color: transparent;
+    color: blue;
+} */
